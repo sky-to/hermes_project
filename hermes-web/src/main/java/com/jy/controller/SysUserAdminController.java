@@ -24,12 +24,12 @@ import javax.annotation.Resource;
 @RequestMapping("/UserAdmin")
 public class SysUserAdminController {
     @Resource
-    private SysUserService userService;
+    private SysUserService sysUserService;
 
     @ApiOperation(value = "登录以后返回token")
     @PostMapping("/login")
     public Result login(@RequestBody @Validated SysUser sysUser) {
-      SysUser user  =userService.login(sysUser.getUserName(), sysUser.getUserPassword());
+      SysUser user  =sysUserService.login(sysUser.getUserName(), sysUser.getUserPassword());
       if (user==null){
           return new Result(StatusCode.ERROR,"用户不存在");
       }

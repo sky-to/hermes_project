@@ -39,7 +39,7 @@ public class SysUser extends BaseModel {
     @TableId(value = "USER_ID", type = IdType.AUTO)
     private String userId;
 
-    //用户名称
+    //用户名称(手机号)
     @ApiModelProperty(value = "用户名称")
     @TableField("USER_NAME")
     private String userName;

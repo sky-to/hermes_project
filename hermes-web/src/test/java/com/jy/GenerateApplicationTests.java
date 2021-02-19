@@ -14,7 +14,7 @@ class GenerateApplicationTests {
 
     private String dataSourcedriver = "com.mysql.cj.jdbc.Driver";
 
-    private String tables = "pro_product,product_category,sys_user";
+    private String tables = "user_menu,user_permission";
 
     private String packageParent = "moKuaiName";
 

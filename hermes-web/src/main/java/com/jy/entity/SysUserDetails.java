@@ -1,4 +1,4 @@
-package com.jy.model;
+package com.jy.entity;
 
 
 import com.jy.entity.SysUser;
