@@ -75,13 +75,13 @@ public class Generator {
         //3、包的配置
         PackageConfig pc = new PackageConfig();
         pc.setParent(packageParent);
-        pc.setController("controller"); // 可以不用设置，默认是这个
-        pc.setService("service"); // 同上
-        pc.setServiceImpl("service.impl"); // 同上
-        pc.setMapper("dao"); // 默认是mapper
-        pc.setEntity("entity"); // 默认是entity
-        pc.setXml("mapping"); // 默认是默认是mapper.xml
-        pc.setModuleName("lujing"); // 控制层请求地址的包名显示
+//        pc.setController("controller"); // 可以不用设置，默认是这个
+//        pc.setService("service"); // 同上
+//        pc.setServiceImpl("service.impl"); // 同上
+//        pc.setMapper("dao"); // 默认是mapper
+//        pc.setEntity("entity"); // 默认是entity
+//        pc.setXml("mapper"); // 默认是默认是mapper.xml
+        pc.setModuleName(""); // 控制层请求地址的包名显示
         mpg.setPackageInfo(pc);
 
         //4、策略配置

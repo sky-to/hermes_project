@@ -14,9 +14,9 @@ class GenerateApplicationTests {
 
     private String dataSourcedriver = "com.mysql.cj.jdbc.Driver";
 
-    private String tables = "user_menu,user_permission";
+    private String tables = "user_role";
 
-    private String packageParent = "moKuaiName";
+    private String packageParent = "";
 
     private boolean isNormalize = true;
 

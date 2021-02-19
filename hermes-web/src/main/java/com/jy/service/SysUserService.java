@@ -16,5 +16,5 @@ import com.jy.entity.SysUser;
 
 public interface SysUserService extends IService<SysUser> {
 
-    SysUser login(String userName, String userPassword);
+    String login(String userName, String userPassword);
 }
