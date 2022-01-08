@@ -20,15 +20,15 @@ class GenerateApplicationTests {
 
     private boolean isNormalize = true;
 
-    @Test
-    void generateMybatisPlusTest() {
-        new Generator().generate(
-                dataSourceurl,
-                dataSourcename,
-                dataSourcepassword,
-                dataSourcedriver,
-                tables,
-                packageParent,
-                isNormalize);
-    }
+//    @Test
+//    void generateMybatisPlusTest() {
+//        new Generator().generate(
+//                dataSourceurl,
+//                dataSourcename,
+//                dataSourcepassword,
+//                dataSourcedriver,
+//                tables,
+//                packageParent,
+//                isNormalize);
+//    }
 }

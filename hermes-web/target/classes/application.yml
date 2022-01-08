@@ -8,3 +8,8 @@ spring:
       url: jdbc:mysql://127.0.0.1:3306/testjy?characterEncoding=utf8
       username: root
       password: root
+#      web-stat-filter:
+#        exclusions:
+#      stat-view-servlet:
+#        login-username:
+#        login-password:
